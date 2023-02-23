@@ -2,6 +2,37 @@ body {
   font-family: 'Roboto';
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* ********************* */
 /* ********************* */
 /* Header's Styles */
@@ -19,11 +50,6 @@ body {
   line-height: 1.2;
   color: #2196f3;
   text-decoration: none;
-}
-
-.header-navigation {
-  text-decoration: none;
-  color: currentColor;
 }
 
 .header-navigation:hover {
@@ -70,10 +96,6 @@ body {
 
 .pointer {
   cursor: pointer;
-}
-
-.list-style-none {
-  list-style: none;
 }
 
 .subtitle-main-block {
