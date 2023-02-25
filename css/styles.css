@@ -1,3 +1,6 @@
+/* ********************* */
+/* ********************* */
+/* Normalize Section*/
 body {
   font-family: 'Roboto';
 }
@@ -35,6 +38,59 @@ address {
 
 /* ********************* */
 /* ********************* */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.container-list-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.container-top-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+
+.container-main-middle1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-main-middle2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-main-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ********************* */
+/* ********************* */
 /* Header's Styles */
 .header-block {
   font-weight: 500;
@@ -52,6 +108,10 @@ address {
   text-decoration: none;
 }
 
+.header-navigation {
+  margin: 0 20px;
+}
+
 .header-navigation:hover {
   color: #2196f3;
 }
@@ -63,6 +123,7 @@ address {
 .header-contact {
   color: #757575;
   text-decoration: none;
+  margin: 0 25px;
 }
 
 .header-contact:hover {
@@ -77,14 +138,17 @@ address {
 }
 
 .main-title {
+  width: 55%;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
   text-align: center;
+  margin: 10px auto;
 }
 
 .button {
+  height: 5vh;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -92,10 +156,28 @@ address {
   color: #ffffff;
   background-color: #2196f3;
   text-decoration: none;
+  text-align: center;
+  padding: 0 30px;
+  margin: 10px auto;
+  border-radius: 4px;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.main-middle {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-element-middle {
+  margin: 94px 0;
+}
+
+.list-main-middle1 {
+  width: 20%;
+  margin: 0 15px;
 }
 
 .subtitle-main-block {
@@ -105,10 +187,15 @@ address {
 }
 
 .text-main-block {
+  margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
+}
+
+.list-main-middle2 {
+  margin: 0 15px;
 }
 
 .subtitle2-main-block {
@@ -116,6 +203,7 @@ address {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 55px;
 }
 
 .main-list-background {
@@ -124,6 +212,7 @@ address {
 
 .main-bottom-block {
   background-color: #f5f4fa;
+  padding: 94px 0;
 }
 
 .subtitle-bottom-block {
