@@ -24,38 +24,40 @@
     <title>Portafolio</title>
   </head>
   <body>
-    <header class="header-block container-head container">
-      <nav class="container-nav">
-        <a class="header-title" href="#">WebStudio</a>
-        <ul class="list container-list-nav">
+    <header class="header-border-portfolio">
+      <div class="header-block container-head container">
+        <nav class="container-nav">
+          <a class="header-title" href="#">WebStudio</a>
+          <ul class="list container-list-nav">
+            <li>
+              <a class="header-navigation link" href="./index.html">Estudio</a>
+            </li>
+            <li>
+              <a class="header-navigation page link" href="./portfolio.html"
+                >Portafolio</a
+              >
+            </li>
+            <li>
+              <a class="header-navigation link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list container-contact">
           <li>
-            <a class="header-navigation link" href="./index.html">Estudio</a>
-          </li>
-          <li>
-            <a class="header-navigation page link" href="./portfolio.html"
-              >Portafolio</a
+            <a class="header-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-navigation link" href="#">Contactos</a>
+            <a class="header-contact" href="tel:+525555296000"
+              >+52 55 5529 6000</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="list container-contact">
-        <li>
-          <a class="header-contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-contact" href="tel:+525555296000"
-            >+52 55 5529 6000</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
-    <main class="container">
-      <nav>
+    <main class="container main-portfolio">
+      <nav class="nav-main-portfolio">
         <button class="button-portfolio pointer" type="button">Todo</button>
         <button class="button-portfolio pointer" type="button">
           Sitios-Web
@@ -69,7 +71,7 @@
         </button>
       </nav>
 
-      <ul class="list">
+      <ul class="list container-main-portfolio">
         <li class="pointer main-list-portfolio">
           <img src="./images/tecnoduck.jpg" alt="Tecnoduck" width="370" />
           <h3 class="main-name-service">Tecnoduck</h3>
@@ -123,35 +125,37 @@
         </li>
       </ul>
     </main>
-    <footer class="main-top-background">
-      <a class="header-title" href="./index.html">WebStudio</a>
-      <address>
-        <ul class="list">
-          <li>
-            <a
-              class="text-main-block color-text-white footer-text-behavior"
-              href="https://goo.gl/maps/GB3hHYx3USkWvwVn7"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-main-block color-text-gray footer-text-behavior"
-              href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-main-block color-text-gray footer-text-behavior"
-              href="tel:+525555296000"
-              >+52 55 5529 6000</a
-            >
-          </li>
-        </ul>
-      </address>
+    <footer class="main-top">
+      <section class="container footer-style">
+        <a class="header-title" href="./index.html">WebStudio</a>
+        <address class="footer-address">
+          <ul class="list footer-list-portfolio">
+            <li>
+              <a
+                class="text-main-block color-text-white footer-text-behavior"
+                href="https://goo.gl/maps/GB3hHYx3USkWvwVn7"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-main-block color-text-gray footer-text-behavior"
+                href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-main-block color-text-gray footer-text-behavior"
+                href="tel:+525555296000"
+                >+52 55 5529 6000</a
+              >
+            </li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>
